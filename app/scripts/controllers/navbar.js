@@ -5,10 +5,7 @@ angular.module('genAppApp')
         $scope.menu = [{
             'title': 'Home',
             'link': '/'
-    }, {
-            'title': 'Pay',
-            'link': '/pay'
-    }, {
+    },{
             'title': 'Settings',
             'link': '/settings'
     }];
