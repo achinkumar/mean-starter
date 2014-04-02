@@ -5,9 +5,7 @@
     <h1>Sign up</h1>
   </div>
   <div class="col-sm-12">
-    <form class="form"expect(repeater('ul li').count()).toEqual(10);
-        input('filterText').enter('Bees');
-        expect(repeater('ul li').count()).toEqual(1); name="form" ng-submit="register(form)" novalidate>
+    <form class="form" name="form" ng-submit="register(form)" novalidate>
 
       <div class="form-group" ng-class="{ 'has-success': form.name.$valid && submitted,
                                           'has-error': form.name.$invalid && submitted }">
